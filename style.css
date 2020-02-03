@@ -5,6 +5,9 @@
     
 }
 
+.container {
+    color: white;
+}
 
 
 body {
@@ -86,3 +89,12 @@ body {
   display: inline-block;
   margin: 0 5px;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: rgb(62, 62, 202);
+    }
+        
+    .wrapper {
+        width: 600px:
+    }
