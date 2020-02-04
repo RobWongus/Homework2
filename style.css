@@ -1,7 +1,7 @@
 .header h1 {
     color:white;
     text-align: left;
-    background-color: rgb(94, 94, 224);
+    background-color: rgb(64, 64, 194);
     
 }
 
@@ -94,12 +94,12 @@ body {
   display: inline-block;
   margin: 0 5px;
 }
-
-@media screen and (max-width: 768px) {
-    body {
-        background-color: rgb(62, 62, 202);
-    }
         
     .wrapper {
         width: 400px:
     }
+
+    @media screen and (max-width: 400px) {
+        body {
+            background-color: rgb(62, 62, 202);
+        }
